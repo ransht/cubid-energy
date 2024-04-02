@@ -1,0 +1,293 @@
+@media (min-width: 992px) {
+	.banner-section {
+		min-height: 800px;
+	}
+	.widget-section {
+		margin-top: -140px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.section-5 {
+		min-height: 600px;
+	}
+
+	.top-header-navbar .navbar-nav > .nav-item .nav-link {
+		padding: 15px 10px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.section-5 {
+		min-height: 830px;
+	}
+}
+
+@media (max-width: 575.98px) {
+
+	body {
+		padding-top: 7.7rem;
+	}
+
+	.banner-paragraph {
+		font-size: 1.1em;
+	}
+
+	.banner-heading {
+		font-size: 1.8em;
+	}
+	
+	.contact-email {
+		white-space: nowrap;
+		float: left;
+		font-size:0.9em;
+	}
+
+	.contact-phone {
+		font-size:0.9em;
+	}
+	
+	.section-3-4 {
+		background-image: url(../images/section-3-4-left.png);
+		background-position: left 100px;
+		background-repeat: no-repeat;
+		background-size: 100px;
+	}
+
+	.section-7-testimonial .d-flex {
+		display: block !important;
+	}
+	
+	.section-7-testimonial .testimonial-image {
+		width: 80% !important;
+		text-align: left;
+	}
+
+	.custom-owl-dots {
+		position: absolute;
+		bottom: -40px;
+		margin-left: 0 !important;
+	}
+	
+	.section-7-testimonial .testimonial-all-text {
+		width: 100% !important;
+		margin-top: -20px;
+		z-index: 1;
+		position: relative;
+	}
+
+	.section-7-testimonial .testimonial-content {
+		position: static;
+	}
+	
+	.footer-copyright-text {
+		border-top: 1px solid #071c46;
+	}
+	
+	.overlay-text {
+		right: 15px;
+		bottom: 10px;
+	}
+	
+	.btn-circle-add {
+		width: 30px;
+		height: 30px;
+		padding: 0.35em 0;
+		border-radius: 25px;
+	}
+	
+	.overlay .btn-outline {
+		width: 50px;
+		height: 50px;
+		padding: 9px;
+		margin: 10px;
+	}
+	
+	.overlay .btn-outline .btn-circle-add i{
+		font-size: 16px;
+	}
+	
+	.overlay-text p {
+		padding-right: 0.5em;
+		font-size: 0.7rem;
+	}
+	
+	.overlay-text h4 {
+		font-size: 1rem;
+	}
+	
+	.our-projects-nav li{
+		font-size: 0.65em;
+		padding: .5rem 0.4rem;
+	}
+
+	.btn-blue, .btn-green {
+		padding: 0.6em 1.5em;
+		font-size: 1em;
+		letter-spacing: 0.05em;
+		border-radius: 10px;
+	}
+
+	.contact-box .btn-green {
+		padding: 1em 3em;
+		font-size: 1em;
+		border-radius: 5px;
+	}
+
+	.widget-section {
+		margin-top: 10px;
+	}
+
+	.header-logo {
+		width: 170px;
+	}
+	.header-bid-btn {
+		width: 70px !important;
+		white-space: break-spaces;
+		padding: 0.4em;
+		color: #fff;
+	}
+
+	.testimonial-content .para::before {
+		width: 15px;
+		right: -15px;
+		height: 85px;
+		bottom: 15px;
+		background-size: 15px;
+		/* background-position: 0px 82px; */
+		background-repeat: no-repeat;
+		bottom: 0px;
+	}
+
+	.testimonial-content .para::after {
+		width: 80px;
+		bottom: -64px;
+		height: 64px;
+		right: 25px;
+		background-size: 70px;
+		background-repeat: no-repeat;
+	}
+
+	.footer-copyright {
+		text-align: center;
+	}
+	
+	.footer-copyright .footer-copyright-menu{
+		text-align: center;
+	}
+
+	.footer-copyright-text{
+		border-top: none;
+		padding-top: 0 !important;
+	}
+
+	.footer-widget-section .footer-header-hr {
+		width: 100%;
+		border-top: none;
+		margin-bottom: 0.5rem;
+		height: 0;
+		background-color: transparent;
+		border-bottom: 1px solid #8abb2a;
+	}
+
+	.footer-widget-section > [class*='col-'] {
+		margin-bottom: 20px;
+	}
+
+	.section-breadcrumb {
+		background-position: right bottom;
+    	height: 150px;
+	}
+
+	.section-breadcrumb .pt-5 {
+		padding-top: 0.5rem!important;
+		text-align: center;
+	}
+	
+	.map-iframe {
+		margin-top:50px;
+	}
+	
+}
+
+@media (max-width: 374px) {
+	.header-logo {
+		width: 140px;
+	}
+
+	.header-bid-btn {
+		width: 50px !important;
+		white-space: break-spaces;
+		padding: 0.4em;
+		color: #fff;
+		font-size: 0.9em;
+	}
+
+}
+
+@media (min-width: 768px) {
+	p {
+		font-weight: normal; 
+		font-size: 15px;
+		line-height: 1.6;
+	}
+	h1 {
+		font-weight: 900;
+		font-size: 50px;
+		line-height: 1.2;
+		color: #fff;
+	}
+	h2 {
+		font-weight: bold;
+		font-size: 36px;
+		line-height: 1.2;
+		color: #20252b;
+	}
+	h3 {
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 1.2;
+		color: #20252b;
+	}
+	
+}
+
+@media (max-width: 767px) {
+	p {
+		font-weight: normal; 
+		font-size: 15px;
+		line-height: 1.6;
+	}
+	h1 {
+		font-weight: 900;
+		font-size: 28px;
+		line-height: 1.2;
+		color: #fff;
+	}
+	h2 {
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 1.2;
+		color: #20252b;
+	}
+	h3 {
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 1.2;
+		color: #20252b;
+	}
+
+	.header-bid-btn {
+		width: 120px;
+		white-space: break-spaces;
+		padding: 0.4em;
+		color: #fff;
+	}
+
+	.square-widget-col {
+		margin-top: 10px;
+	}
+
+	.square-widget {
+		padding: 0.7rem !important;
+	}
+}
